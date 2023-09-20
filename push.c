@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * f_push - This pushes data to a stack
+ * push - This pushes data to a stack
  * @head: double pointer the head of the stack
  * @line: current line number
  *
  */
-void f_push(stack_t **head, unsigned int line)
+void push(stack_t **head, unsigned int line)
 {
 	int n, i;
 
