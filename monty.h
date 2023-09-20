@@ -114,4 +114,4 @@ ssize_t _getline(char **line, size_t *n, FILE *stream);
 void m_initvar(FILE *ptr);
 void _freevar(void);
 
-# endif
+# endif /* MONTY_H */
